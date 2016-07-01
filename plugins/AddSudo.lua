@@ -11,7 +11,7 @@ user = 'user#id'..user
 end
 if is_owner(msg) then
     if msg.from.username ~= nil then
-      if string.find(msg.from.username , 'Hextor_Admin') then
+      if string.find(msg.from.username , 'be_lucky') then
           return "سازنده هم اکنون در گروه است"
           end
 if msg.to.type == 'chat' then
@@ -37,6 +37,3 @@ patterns = {
 run = run
 }
 end
-
---@Hextor_Admin
---@Hextor_ch
