@@ -204,6 +204,16 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
     "onservice",
     "inrealm",
     "ingroup",
@@ -236,23 +246,14 @@ function create_config( )
     "all",
     "leave_ban"
     },
-    sudo_users = {118682430},--Sudo users
+    sudo_users = {96931133},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Creed bot 2.3
-    
-     Hello my Good friends 
-     
-    ‼️ this bot is made by : @creed_is_dead
-   〰〰〰〰〰〰〰〰
-   ߔࠀ   our admins are : 
-   ߔࠀ   @sorblack_creed
-   ߔࠀ   @amircc_creed
-   ߔࠀ   @aria_creed
-   〰〰〰〰〰〰〰〰
+    about_text = [[بات ضد اسپم
+    ایدی سازنده ی بات: @be_lucky
   ♻️ You can send your Ideas and messages to Us By sending them into bots account by this command :
    تمامی درخواست ها و همه ی انتقادات و حرفاتونو با دستور زیر بفرستین به ما
-   !feedback (your ideas and messages)
+   !feedback (بین پرانتز نظرتونو بنویسید)
 ]],
     help_text_realm = [[
 Realm Commands:
